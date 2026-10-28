@@ -1,3 +1,16 @@
 {
-  "releases": []
+  "releases": [
+    {
+      "version": "0.2.0",
+      "date": "2026-10-28",
+      "security": false,
+      "manual_steps": false,
+      "notes": [
+        "First self-hosted release of Handbook",
+        "Your company is created during installation; colleagues join by invite",
+        "Admins are told about new versions and can update from Admin \u203a Updates"
+      ],
+      "notes_url": "https://github.com/blockgroot/handbook-releases/blob/main/notes/0.2.0.md"
+    }
+  ]
 }
