@@ -6,7 +6,7 @@ Handbook answers your team's questions from your company's own tools: Slack, Goo
 
 - A Linux server with Docker and Docker Compose 2.20 or later (about 2 CPUs, 4 GB of memory, 20 GB of disk to start).
 - A domain for Handbook (for example `handbook.yourcompany.com`) pointing at the server, with ports 80 and 443 open.
-- A Claude API key, a Jina API key, and an SMTP server for sign-in emails.
+- An API key for an AI model (Claude, OpenAI, Gemini, or any OpenAI-compatible service), an API key for search (Jina, OpenAI or another), and an SMTP server for sign-in emails.
 - **The registry username and token we sent you with your license.** They let your server download Handbook.
 
 ## Install
@@ -17,10 +17,12 @@ Find the latest version under [Releases](https://github.com/blockgroot/handbook-
 curl -LO https://github.com/blockgroot/handbook-releases/releases/download/v1.0.0/handbook-selfhost-1.0.0.zip
 unzip handbook-selfhost-1.0.0.zip
 cd handbook
-./install.sh
+./install.sh        # creates .env, with its secrets generated
+nano .env           # fill in everything under "Fill these in"
+./install.sh        # starts Handbook and creates your company
 ```
 
-The installer asks a few questions, sets everything up, starts Handbook and creates your company with you as its admin. Then open `https://<your domain>` and sign in.
+The comments in `.env` say what each value is and where to find it. **`.env` is filled in by your own team:** it holds your keys, passwords and the secrets that protect your data, and nobody outside your company needs it, including us. The second run checks nothing is missing, starts Handbook and makes you its first admin. Then open `https://<your domain>` and sign in.
 
 ## Then
 
