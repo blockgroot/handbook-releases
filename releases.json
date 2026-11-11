@@ -1,6 +1,24 @@
 {
   "releases": [
     {
+      "version": "0.3.0",
+      "date": "2026-11-11",
+      "security": false,
+      "manual_steps": true,
+      "notes": [
+        "A fresh, calmer look across the app: Ask, Spaces, Reports, Sources, People, Model, Agent mode, Updates and your Account",
+        "Deep analysis suggests deeper questions; Chart mode always offers at least three charts to start from",
+        "Only people with your company's email domain can be invited, or switch their sign-in email",
+        "Every connector shows how far a sync has got: \"12 of 40 issues done\"",
+        "Connecting a tool that is not set up yet opens a step-by-step guide instead of an error",
+        "Updates shows which version you are running",
+        "Exact answers and charts over large spreadsheets: every tab, totals over thousands of rows, two sheets compared",
+        "Every question is answered fresh; a new Redis-compatible service holds rate limits only",
+        "The Google Forms survey picker is gone from Sources"
+      ],
+      "notes_url": "https://github.com/blockgroot/handbook-releases/blob/main/notes/0.3.0.md"
+    },
+    {
       "version": "0.2.1",
       "date": "2026-10-28",
       "security": false,
