@@ -1,6 +1,24 @@
 {
   "releases": [
     {
+      "version": "0.4.0",
+      "date": "2026-11-13",
+      "security": false,
+      "manual_steps": false,
+      "notes": [
+        "Rename and pin chats from the \u22ef menu in Recent chats; pinned chats stay at the top",
+        "Notifications can be dismissed one at a time, or cleared all at once",
+        "While an answer is written, a timeline shows which tools were searched and which documents were found",
+        "Admins see a short notice beside the modes when a new version of Handbook is out",
+        "Chart mode's starter charts appear sooner, with placeholders while they load",
+        "Sign-in and invite emails open with a button",
+        "Optional AI spend limits in dollars, per person and per company",
+        "The model picker offers the two supported answering models",
+        "Redesigned People, Model, Sources and Reports pages"
+      ],
+      "notes_url": "https://github.com/blockgroot/handbook-releases/blob/main/notes/0.4.0.md"
+    },
+    {
       "version": "0.3.0",
       "date": "2026-11-11",
       "security": false,
